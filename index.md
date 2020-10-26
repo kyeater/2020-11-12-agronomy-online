@@ -31,7 +31,7 @@ double quotation marks around the value, unless specified otherwise.
 And run 'make workshop-check' *before* committing to make sure that changes are good.
 {% endcomment %}
 
-
+Welcome to the Intro to Python Workshop page!  This one-day workshop is being offered in conjunction with the 2020 ASA-CCSA-SSSA Annual Meeting.  All registered attendees have been notified and are provided access to these setup materials for the workshop.  Prior to the workshop, it is very important to perform the Python install (See Python Install Instructions in the Setup instructions below or find them here on the Setup Page (https://datacarpentry.org/ecology-workshop/setup-python-workshop.html) as well as download all data files (See Setup Page and download Zip file under Data description).  Administrative rights will most likely be required for the Python install, so please plan accordingly. An optional Python BBQ Installation Open House will be offered via Zoom on Thursday Nov. 5, 2020 Noon - 2pm CDT for anyone who wants to drop-in and make sure things are working as planned.  (Zoom Meeting invites will be sent at a later date).   
 
 {% comment %}
 Check DC curriculum
