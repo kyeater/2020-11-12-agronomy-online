@@ -4,7 +4,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "ASA-CSSA-SSSA"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "Online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: "online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 latitude: ""        # decimal latitude of workshop venue (use https://www.latlong.net/)
@@ -31,7 +31,7 @@ double quotation marks around the value, unless specified otherwise.
 And run 'make workshop-check' *before* committing to make sure that changes are good.
 {% endcomment %}
 
-Welcome to the Intro to Python Workshop page!  This one-day workshop is being offered in conjunction with the 2020 ASA-CCSA-SSSA Annual Meeting.  All registered attendees have been notified and are provided access to these setup materials for the workshop.  Prior to the workshop, it is very important to perform the Python install (See Python Install Instructions in the Setup instructions below or find them here on the Setup Page (https://datacarpentry.org/ecology-workshop/setup-python-workshop.html) as well as download all data files (See Setup Page and download Zip file under Data description).  Administrative rights will most likely be required for the Python install, so please plan accordingly. An optional Python BBQ Installation Open House will be offered via Zoom on Thursday Nov. 5, 2020 Noon - 2pm CDT for anyone who wants to drop-in and make sure things are working as planned.  (Zoom Meeting invites will be sent at a later date).   
+Welcome to the Intro to Python Workshop page!  This workshop is being offered in conjunction with the 2020 ASA-CCSA-SSSA Annual Meeting.  All registered attendees have been notified and are provided access to these setup materials for the workshop.  Prior to the workshop, it is very important to perform the Python install (See Python Install Instructions in the Setup instructions below or find them here on the Setup Page (https://datacarpentry.org/ecology-workshop/setup-python-workshop.html) as well as download all data files (See Setup Page and download Zip file under Data description).  Administrative rights will most likely be required for the Python install, so please plan accordingly. An optional Python BBQ Installation Open House will be offered via Zoom on Thursday Nov. 5, 2020 Noon - 2pm CDT for anyone who wants to drop-in and make sure things are working as planned.  (Zoom Meeting invites will be sent at a later date).   
 
 {% comment %}
 Check DC curriculum
@@ -107,7 +107,7 @@ workshop is only open to people from a particular institution.
 {% elsif site.carpentry == "lc" %}
 {% include lc/who.html %}
 {% endif %}
-
+The course is aimed at graduate students, post docs, academic, government and industry researchers.
 {% comment %}
 LOCATION
 
@@ -166,8 +166,7 @@ SPECIAL REQUIREMENTS
 Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  <strong>Requirements:</strong> Participants will be provided with Zoom link and password prior to workshop.  Participants should work on examples and instructional material during the workshop with either Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.), that they have administrative privileges on. Use of two monitors is encouraged if available to the participant.  They should have the Python software package installed prior to the workshop (listed <a href="#setup">below</a>).
 </p>
 
 {% comment %}
